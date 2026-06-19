@@ -29,8 +29,6 @@ Intuitively, SMID answers: *"When this molecule folds up as compactly as it can,
 
 SMID was introduced as a descriptor that correlates with activation of the **pregnane X receptor (PXR)**. Activation of PXR induces cytochrome P450 3A4 (CYP3A4) and is a liability in drug discovery and development because it can drive drug–drug interactions. Bower et al. proposed SMID as a descriptor correlated with PXR activation, together with a strategy for using it to guide medicinal chemists in modifying lead compounds so as to reduce PXR activation. The underlying rationale is steric: the PXR ligand-binding pocket favors compact molecules, so a larger SMID (a molecule that cannot collapse below a certain length) tends to be associated with weaker activation. SMID is therefore most useful as a flexibility- and size-aware design parameter in medicinal chemistry, rather than a simple static-size metric.
 
-> **A note on naming.** This repository's description uses the phrase "shortest maximum intermolecular distance," but the published descriptor is the **Smallest Maximum *Intramolecular* Distance**. The distances are *intramolecular* (between atoms of the same molecule across its conformers) and the ensemble reduction takes the *smallest* of the per-conformer maxima — which is exactly what `SMID.py` computes. The acronym **SMID** is unchanged.
-
 ---
 
 ## How the script works
