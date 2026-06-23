@@ -138,4 +138,4 @@ This script is an independent RDKit implementation of that descriptor; please ci
 
 ## License
 
-Released under the [MIT License](LICENSE). © 2026 a-aghamohammadi
+Released under the [MIT License](LICENSE). © 2026 InSilicoDev
